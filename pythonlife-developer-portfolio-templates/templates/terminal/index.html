@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{NAME}} | {{ROLE}}</title>
+<meta name="description" content="{{TAGLINE}}">
+<!-- PythonLife Portfolio: Terminal. Python REPL style page.
+     Replace every {{PLACEHOLDER}}. Search for "{{" to find them. See docs/GUIDE.md. -->
+<style>
+:root{color-scheme:light dark;--bg:#fff;--fg:#1a1d21;--muted:#5b6470;--line:#e3e6ea;--card:#f6f8fa;--blue:#3776ab;--yellow:#ffd43b}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1117;--fg:#e6edf3;--muted:#9aa4b0;--line:#30363d;--card:#161b22;--blue:#79b0dc}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header,main,footer{max-width:760px;margin:0 auto;padding-left:20px;padding-right:20px}
+header{padding-top:4rem}
+a{color:var(--blue)}
+a:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+h1{font-size:2rem;line-height:1.2;margin:0 0 .5rem}
+h2{font-size:.95rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:3rem 0 1rem}
+h3{font-size:1.05rem;margin:0 0 .25rem}
+p{margin:.25rem 0 .75rem}
+.muted{color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.tag{display:inline-block;font-size:.8rem;border:1px solid var(--line);border-radius:99px;padding:1px 10px;margin:2px 4px 2px 0;color:var(--muted)}
+.links a{margin-right:16px}
+footer{padding-top:3rem;padding-bottom:3rem;color:var(--muted);font-size:.9rem}
+:root{color-scheme:dark;--bg:#0d1117;--fg:#e6edf3;--muted:#9aa4b0;--line:#30363d;--card:#161b22;--blue:#79b0dc}
+body{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px}
+.p::before{content:">>> ";color:var(--yellow)}
+.p{color:var(--yellow);margin:2.5rem 0 .5rem}
+h1{font-size:1.6rem}
+h2{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.out{border-left:2px solid var(--line);padding-left:14px}
+ul.out{list-style:none;margin:0;padding-left:14px}
+li{margin:.3rem 0}
+</style>
+</head>
+<body>
+<header>
+  <p class="p">python portfolio.py</p>
+  <div class="out">
+    <h1>{{NAME}}</h1>
+    <p>{{ROLE}}. {{TAGLINE}}</p>
+  </div>
+</header>
+<main>
+  <section id="about">
+    <h2>About</h2>
+    <p class="p">developer.about()</p>
+    <p class="out">{{ABOUT}}</p>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <p class="p">for project in developer.projects: print(project)</p>
+    <ul class="out">
+      <li><a href="{{PROJECT_1_URL}}">{{PROJECT_1_TITLE}}</a>: {{PROJECT_1_SUMMARY}}</li>
+      <li><a href="{{PROJECT_2_URL}}">{{PROJECT_2_TITLE}}</a>: {{PROJECT_2_SUMMARY}}</li>
+      <li><a href="{{PROJECT_3_URL}}">{{PROJECT_3_TITLE}}</a>: {{PROJECT_3_SUMMARY}}</li>
+    </ul>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <p class="p">developer.skills</p>
+    <p class="out">["Python", "Flask", "FastAPI", "pandas", "SQL", "pytest", "Git"]</p>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p class="p">developer.contact()</p>
+    <div class="out">
+      <p class="links">
+    <a href="mailto:{{EMAIL}}">Email</a>
+    <a href="https://github.com/{{USERNAME}}">GitHub</a>
+    <a href="https://linkedin.com/in/{{LINKEDIN}}">LinkedIn</a>
+  </p>
+    </div>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2026 {{NAME}}. Built with PythonLife templates.</p>
+</footer>
+</body>
+</html>
