@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "01-001",
+    "number": 1,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Beginner",
+    "question": "What is Now Assist?",
+    "answer": "The name for ServiceNow's generative-AI-driven solutions and workflows that improve productivity and the employee and customer experience on the Now Platform."
+  },
+  {
+    "id": "01-002",
+    "number": 2,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Beginner",
+    "question": "What is ServiceNow Otto?",
+    "answer": "The new AI experience brand announced in 2026. It brings together Now Assist, Moveworks and the AI Experience platform behind one conversational entry point."
+  },
+  {
+    "id": "01-003",
+    "number": 3,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Beginner",
+    "question": "Which release shows the Otto branding in the Now Assist documentation?",
+    "answer": "The Australia release. Its release notes say Otto is the new AI experience brand and that product entitlements remain unchanged."
+  },
+  {
+    "id": "01-004",
+    "number": 4,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Beginner",
+    "question": "What is Now LLM?",
+    "answer": "ServiceNow's own large language model service, which powers most out-of-the-box Now Assist skills."
+  },
+  {
+    "id": "01-005",
+    "number": 5,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Intermediate",
+    "question": "Which languages does Now LLM support natively, according to the Now Assist FAQ?",
+    "answer": "English, Spanish, Japanese, French, German, Italian, Brazilian Portuguese, Dutch and Canadian French. Check the current FAQ because support expands over time."
+  },
+  {
+    "id": "01-006",
+    "number": 6,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Intermediate",
+    "question": "How does Now Assist handle languages Now LLM does not support natively?",
+    "answer": "Through Dynamic Translation. ServiceNow provides an out-of-the-box translation service for Dynamic Translation when it is used only for Now Assist."
+  },
+  {
+    "id": "01-007",
+    "number": 7,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Beginner",
+    "question": "What is a skill in Now Assist?",
+    "answer": "A packaged generative AI capability, such as incident summarization, with a prompt, a model, inputs, outputs and security settings that performs one task."
+  },
+  {
+    "id": "01-008",
+    "number": 8,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Beginner",
+    "question": "How is Now Assist consumption measured?",
+    "answer": "In assists. Different skills and uses consume different numbers of assists, as shown on the assist rate card."
+  },
+  {
+    "id": "01-009",
+    "number": 9,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Intermediate",
+    "question": "Are assists charged when an LLM request returns an error?",
+    "answer": "According to the Now Assist FAQ, no. This includes out-of-the-box Now LLM skills (even when Now Assist Guardian guardrails trigger) and custom skills that use third-party LLMs."
+  },
+  {
+    "id": "01-010",
+    "number": 10,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Beginner",
+    "question": "What are Pro Plus and Enterprise Plus?",
+    "answer": "Premium ServiceNow product tiers that include Now Assist entitlements. Packaging can change, so confirm details with your account representative."
+  },
+  {
+    "id": "01-011",
+    "number": 11,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Beginner",
+    "question": "What is AI Admin Hub?",
+    "answer": "The application used to activate, manage and monitor AI skills and capabilities."
+  },
+  {
+    "id": "01-012",
+    "number": 12,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Intermediate",
+    "question": "What was AI Admin Hub called before?",
+    "answer": "Now Assist Admin Console."
+  },
+  {
+    "id": "01-013",
+    "number": 13,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Beginner",
+    "question": "Name several Now Assist products.",
+    "answer": "Now Assist for ITSM, CSM, HRSD, ITOM, FSM, SPM, IRM and Creator, among others available in the ServiceNow Store."
+  },
+  {
+    "id": "01-014",
+    "number": 14,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Beginner",
+    "question": "What is Now Assist for Creator for?",
+    "answer": "Making development on the Now Platform more efficient, for example by helping developers generate code and workflows."
+  },
+  {
+    "id": "01-015",
+    "number": 15,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Intermediate",
+    "question": "Can customers use LLMs other than Now LLM?",
+    "answer": "Yes. Options include OEM models through model provider flexibility, spokes, the generic LLM connector, and the Generative AI Controller. Separate third-party subscription charges may apply."
+  },
+  {
+    "id": "01-016",
+    "number": 16,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Intermediate",
+    "question": "What is model provider flexibility?",
+    "answer": "The ability to choose providers other than Now LLM for Now Assist features. From Yokohama Patch 6, models such as Gemini, Azure OpenAI and Claude can be used for many out-of-the-box skills."
+  },
+  {
+    "id": "01-017",
+    "number": 17,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Beginner",
+    "question": "Where do you obtain Now Assist plugins?",
+    "answer": "From the ServiceNow Store."
+  },
+  {
+    "id": "01-018",
+    "number": 18,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Intermediate",
+    "question": "Should you install the Generative AI Controller, skills and spokes individually?",
+    "answer": "No. After licensing and updating the instance, use the AI Admin Hub (formerly the Now Assist admin console) to activate skills first."
+  },
+  {
+    "id": "01-019",
+    "number": 19,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Beginner",
+    "question": "Does Now Assist support GCC customers?",
+    "answer": "Yes, since June 2024, but a subset of features is not available. Ask your account representative for current details."
+  },
+  {
+    "id": "01-020",
+    "number": 20,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Beginner",
+    "question": "What is the Generative AI Controller?",
+    "answer": "The connection layer between the Now Platform and large language models, used for out-of-the-box and custom generative AI use cases."
+  },
+  {
+    "id": "01-021",
+    "number": 21,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Intermediate",
+    "question": "How do Now Assist and the Generative AI Controller differ?",
+    "answer": "Now Assist is the set of products and skills delivered by ServiceNow. The Generative AI Controller is the connector framework that links the platform to LLMs, including external ones, for custom use cases."
+  },
+  {
+    "id": "01-022",
+    "number": 22,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Intermediate",
+    "question": "What are the two main ways to use generative AI on an instance?",
+    "answer": "Out-of-the-box skills from Now Assist products, and custom use cases built with Now Assist Skill Kit or the Generative AI Controller."
+  },
+  {
+    "id": "01-023",
+    "number": 23,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Intermediate",
+    "question": "Does Now Assist address domain separation?",
+    "answer": "Yes. The FAQ covers domain separation in the AI Admin Hub, the Generative AI Controller and AI Search."
+  },
+  {
+    "id": "01-024",
+    "number": 24,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Intermediate",
+    "question": "Why does it matter that entitlements are unchanged by the Otto rename?",
+    "answer": "Customers do not need a new license only because of the new brand. Access to specific features still depends on the entitlements they hold."
+  },
+  {
+    "id": "01-025",
+    "number": 25,
+    "category": "Platform AI Fundamentals and Licensing",
+    "level": "Intermediate",
+    "question": "What are Xanadu, Yokohama, Zurich and Australia?",
+    "answer": "ServiceNow platform release family names, in that order. Australia is the 2026 release, so check which family your instance runs before relying on a feature."
+  },
+  {
+    "id": "02-001",
+    "number": 26,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Beginner",
+    "question": "What does incident summarization do?",
+    "answer": "It generates a concise summary of an incident's details and activity so a fulfiller can understand the case quickly."
+  },
+  {
+    "id": "02-002",
+    "number": 27,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Beginner",
+    "question": "What is resolution notes generation?",
+    "answer": "A skill that drafts resolution notes from the record's activity when an agent resolves or closes it."
+  },
+  {
+    "id": "02-003",
+    "number": 28,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Beginner",
+    "question": "What is knowledge article generation from a record?",
+    "answer": "A skill that creates a draft knowledge article from a resolved record so the solution can be reused. A human reviews it before publishing."
+  },
+  {
+    "id": "02-004",
+    "number": 29,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Beginner",
+    "question": "What is the goal of Now Assist for ITSM?",
+    "answer": "To help ITSM agents resolve incidents faster using generative AI."
+  },
+  {
+    "id": "02-005",
+    "number": 30,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Beginner",
+    "question": "What does chat summarization help with?",
+    "answer": "It summarizes a live conversation so an agent who joins or follows up gets context without rereading everything."
+  },
+  {
+    "id": "02-006",
+    "number": 31,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Intermediate",
+    "question": "Why does summary quality depend on record quality?",
+    "answer": "The model works from the record content. Sparse or inconsistent work notes produce weak summaries, so good data practices still matter."
+  },
+  {
+    "id": "02-007",
+    "number": 32,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Intermediate",
+    "question": "How can you limit Now Assist to licensed fulfillers?",
+    "answer": "Create a custom role for agents and assign it only to fulfillers who hold licensed seats, then use it in skill access settings."
+  },
+  {
+    "id": "02-008",
+    "number": 33,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Intermediate",
+    "question": "How can you turn off Now Assist for a specific catalog item?",
+    "answer": "Use the Now Assist setting on the catalog item (the field to turn off Now Assist conversation for the item)."
+  },
+  {
+    "id": "02-009",
+    "number": 34,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Intermediate",
+    "question": "What should you check if Virtual Agent and AI Search give different Now Assist results?",
+    "answer": "Make sure the Now Assist plugins are up to date, then re-index the AI Search sources."
+  },
+  {
+    "id": "02-010",
+    "number": 35,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Intermediate",
+    "question": "Why should agents review generated content?",
+    "answer": "LLM output can be wrong or incomplete. A human in the loop confirms accuracy before it is saved or sent."
+  },
+  {
+    "id": "02-011",
+    "number": 36,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Intermediate",
+    "question": "What is a typical activation flow for a Now Assist skill?",
+    "answer": "Install the Now Assist plugin from the Store, confirm entitlements, activate the skill in AI Admin Hub, assign access roles, test in a non-production instance, then roll out."
+  },
+  {
+    "id": "02-012",
+    "number": 37,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Intermediate",
+    "question": "Why test skills in a sub-production instance first?",
+    "answer": "To check output quality, access control, and assist consumption before real users depend on it."
+  },
+  {
+    "id": "02-013",
+    "number": 38,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Advanced",
+    "question": "How would you measure the return on summarization skills?",
+    "answer": "Baseline handle time and resolution time first. Then track usage, acceptance and edit rates, user feedback and assist consumption, and compare them with the baseline."
+  },
+  {
+    "id": "02-014",
+    "number": 39,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Beginner",
+    "question": "What is the aim of Now Assist for ITOM?",
+    "answer": "To help operations teams understand and resolve issues faster using generative AI. Available features vary by release, so check the documentation."
+  },
+  {
+    "id": "02-015",
+    "number": 40,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Intermediate",
+    "question": "Should a generated summary replace the underlying record?",
+    "answer": "No. The record remains the system of record. The summary is a convenience layer."
+  },
+  {
+    "id": "02-016",
+    "number": 41,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Intermediate",
+    "question": "What prevents a user from seeing data through a skill that they cannot normally access?",
+    "answer": "Access controls and role restrictions. User access decides who can run the skill, and role restrictions decide which roles the skill runs with."
+  },
+  {
+    "id": "02-017",
+    "number": 42,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Advanced",
+    "question": "How would you roll out Now Assist for ITSM in phases?",
+    "answer": "Start with one skill and a pilot group, measure adoption and quality, collect feedback, adjust prompts and access, then expand to more skills and teams."
+  },
+  {
+    "id": "02-018",
+    "number": 43,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Advanced",
+    "question": "How should sensitive information in work notes be handled?",
+    "answer": "Use the platform's data privacy controls, rely on the guardrails, train users not to paste secrets into tickets, and review the product's data handling documentation."
+  },
+  {
+    "id": "02-019",
+    "number": 44,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Intermediate",
+    "question": "How can you keep assist consumption under control?",
+    "answer": "Activate only the skills you need, restrict them to the right roles, and avoid automatic triggering where users gain little value."
+  },
+  {
+    "id": "02-020",
+    "number": 45,
+    "category": "Now Assist for ITSM and ITOM",
+    "level": "Advanced",
+    "question": "Which adoption metrics would you report to leadership?",
+    "answer": "Skill usage, acceptance versus edit rates, time to resolve, user satisfaction and assist consumption per skill."
+  },
+  {
+    "id": "03-001",
+    "number": 46,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Beginner",
+    "question": "What is Now Assist for CSM?",
+    "answer": "A product that helps customer service agents work with cases more effectively using generative AI, such as case summaries."
+  },
+  {
+    "id": "03-002",
+    "number": 47,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Beginner",
+    "question": "What is Now Assist for HRSD?",
+    "answer": "A product that aims to improve resolution times for HR cases through generative AI features."
+  },
+  {
+    "id": "03-003",
+    "number": 48,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Beginner",
+    "question": "What does Now Assist for FSM provide?",
+    "answer": "Generative AI help for field service, including work order task closure summaries so tasks close faster with better notes."
+  },
+  {
+    "id": "03-004",
+    "number": 49,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Beginner",
+    "question": "What does FSM stand for?",
+    "answer": "Field Service Management."
+  },
+  {
+    "id": "03-005",
+    "number": 50,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Beginner",
+    "question": "What does Now Assist for SPM do?",
+    "answer": "It helps analyze feedback using generative AI."
+  },
+  {
+    "id": "03-006",
+    "number": 51,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Beginner",
+    "question": "What does IRM stand for?",
+    "answer": "Integrated Risk Management."
+  },
+  {
+    "id": "03-007",
+    "number": 52,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Intermediate",
+    "question": "Why summarize customer cases?",
+    "answer": "Agents handle many interactions per case, so a summary gives quick context and reduces handle time."
+  },
+  {
+    "id": "03-008",
+    "number": 53,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Intermediate",
+    "question": "Why do HR use cases need extra care?",
+    "answer": "HR data is personal and sensitive. Strict access controls, privacy review and clear data handling rules are essential."
+  },
+  {
+    "id": "03-009",
+    "number": 54,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Intermediate",
+    "question": "How can you limit Now Assist to licensed departments?",
+    "answer": "Restrict summaries and catalog items to licensed department content, create roles for licensed fulfillers, and use department-specific portals and Virtual Agent."
+  },
+  {
+    "id": "03-010",
+    "number": 55,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Intermediate",
+    "question": "Why verify entitlements product by product?",
+    "answer": "Skills belong to licensed products, so activation should match entitlements for compliance and cost control."
+  },
+  {
+    "id": "03-011",
+    "number": 56,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Intermediate",
+    "question": "Who is the typical user of Now Assist for Creator?",
+    "answer": "Developers and administrators who build applications and workflows on the platform."
+  },
+  {
+    "id": "03-012",
+    "number": 57,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Intermediate",
+    "question": "How can generative AI help knowledge managers?",
+    "answer": "By drafting articles from resolved cases. People then review, edit and publish the drafts."
+  },
+  {
+    "id": "03-013",
+    "number": 58,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Advanced",
+    "question": "Describe a cross-department scenario for the Otto panel.",
+    "answer": "An employee asks to reset a password and request equipment. The request is routed to the right agents or topics, all actions follow permissions, and governance applies through AI Control Tower."
+  },
+  {
+    "id": "03-014",
+    "number": 59,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Intermediate",
+    "question": "Why does a clean knowledge base matter for generated answers?",
+    "answer": "Answers are grounded in your content. Outdated or contradictory articles lead to poor or misleading answers."
+  },
+  {
+    "id": "03-015",
+    "number": 60,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Intermediate",
+    "question": "What is the difference between agent-facing and requester-facing AI?",
+    "answer": "Agent-facing AI assists fulfillers who review the output. Requester-facing AI answers users directly, often without human review."
+  },
+  {
+    "id": "03-016",
+    "number": 61,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Advanced",
+    "question": "Which is riskier, agent-facing or requester-facing AI, and why?",
+    "answer": "Requester-facing, because no human checks the answer before it is used. Apply stricter guardrails, citations, feedback and monitoring."
+  },
+  {
+    "id": "03-017",
+    "number": 62,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Intermediate",
+    "question": "How can answers be provided in more languages?",
+    "answer": "Through Dynamic Translation or an LLM with multilingual support, depending on the skill and provider."
+  },
+  {
+    "id": "03-018",
+    "number": 63,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Intermediate",
+    "question": "Why pilot with one department?",
+    "answer": "It limits risk, makes feedback easier to act on, and provides evidence for a wider rollout."
+  },
+  {
+    "id": "03-019",
+    "number": 64,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Advanced",
+    "question": "How would you prove the value of case summarization in HR?",
+    "answer": "Baseline handle time, reopen rate and employee satisfaction, then compare after the rollout while controlling for volume changes."
+  },
+  {
+    "id": "03-020",
+    "number": 65,
+    "category": "Now Assist for CSM, HRSD and Other Workflows",
+    "level": "Intermediate",
+    "question": "Why keep users informed about generated content?",
+    "answer": "Transparency builds trust and sets expectations about accuracy. It supports adoption and responsible use."
+  },
+  {
+    "id": "04-001",
+    "number": 66,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Beginner",
+    "question": "What is Now Assist Skill Kit?",
+    "answer": "A tool for building, testing and managing custom generative AI skills on the Now Platform."
+  },
+  {
+    "id": "04-002",
+    "number": 67,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Beginner",
+    "question": "Where do you start creating a custom skill?",
+    "answer": "Go to All, then Now Assist Skill Kit, then Home, and select Create new skill."
+  },
+  {
+    "id": "04-003",
+    "number": 68,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Beginner",
+    "question": "Which role is required to create a skill in Skill Kit?",
+    "answer": "sn_skill_builder.admin."
+  },
+  {
+    "id": "04-004",
+    "number": 69,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "What options exist for creating the prompt?",
+    "answer": "Write it from scratch, choose one from the prompt library, or use an AI-generated prompt."
+  },
+  {
+    "id": "04-005",
+    "number": 70,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "Which providers can a skill use?",
+    "answer": "Now LLM and prebuilt spokes that connect to external LLMs, such as Azure OpenAI, OpenAI, Aleph Alpha, WatsonX and Google Gemini. Check the current list for your release."
+  },
+  {
+    "id": "04-006",
+    "number": 71,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "Do LLM spokes consume Integration Hub transactions?",
+    "answer": "No. According to the documentation, the spokes consume assists instead."
+  },
+  {
+    "id": "04-007",
+    "number": 72,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "What user access options does a skill have?",
+    "answer": "Any authenticated user, or selected roles. A user needs only one of the selected roles to run the skill."
+  },
+  {
+    "id": "04-008",
+    "number": 73,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Advanced",
+    "question": "How do user access and role restrictions differ?",
+    "answer": "Access settings and ACLs control who may trigger the skill. Role restrictions define the roles the skill runs with during execution."
+  },
+  {
+    "id": "04-009",
+    "number": 74,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "What are skill inputs and outputs?",
+    "answer": "Inputs are the values passed into the prompt. Outputs define the form of the result returned to the caller."
+  },
+  {
+    "id": "04-010",
+    "number": 75,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "What is a skill prompt?",
+    "answer": "The instructions, context and variables sent to the LLM to produce the result."
+  },
+  {
+    "id": "04-011",
+    "number": 76,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "What is a tool in Skill Kit?",
+    "answer": "A component the skill can use to retrieve data or take an action, added alongside the prompt."
+  },
+  {
+    "id": "04-012",
+    "number": 77,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "Why update the Generative AI Controller when you update Skill Kit?",
+    "answer": "The documentation says to keep them aligned so custom skills continue to perform correctly."
+  },
+  {
+    "id": "04-013",
+    "number": 78,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "What does the Skill Kit evaluation feature do?",
+    "answer": "It lets you test and assess skill output quality. It uses an OEM third-party call, and errors from it do not consume assists."
+  },
+  {
+    "id": "04-014",
+    "number": 79,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Advanced",
+    "question": "What are good prompt design practices?",
+    "answer": "State the role and task clearly, provide context and constraints, define the output format, add examples when useful, and test with varied inputs."
+  },
+  {
+    "id": "04-015",
+    "number": 80,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Advanced",
+    "question": "How do you reduce hallucinations in a custom skill?",
+    "answer": "Ground the prompt in retrieved data, instruct the model to say when information is missing, limit the scope, validate output, and test with edge cases."
+  },
+  {
+    "id": "04-016",
+    "number": 81,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "What is few-shot prompting?",
+    "answer": "Including a few example inputs and outputs in the prompt to guide format and tone."
+  },
+  {
+    "id": "04-017",
+    "number": 82,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "What is grounding?",
+    "answer": "Supplying trusted data or documents as context so the model answers from them instead of guessing."
+  },
+  {
+    "id": "04-018",
+    "number": 83,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "Why should each skill do one job?",
+    "answer": "Single-purpose skills are easier to test, tune, reuse and secure."
+  },
+  {
+    "id": "04-019",
+    "number": 84,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Beginner",
+    "question": "What is a spoke in this context?",
+    "answer": "An Integration Hub package that connects the platform to an external service, such as an LLM provider."
+  },
+  {
+    "id": "04-020",
+    "number": 85,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "When would you use the generic LLM connector?",
+    "answer": "When you want to connect to an LLM that has no prebuilt spoke, using its API."
+  },
+  {
+    "id": "04-021",
+    "number": 86,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Advanced",
+    "question": "How do you choose between Now LLM and an external LLM?",
+    "answer": "Consider quality for the task, language support, data and contractual requirements, cost, and integration effort. Now LLM is the managed default and external models add choice."
+  },
+  {
+    "id": "04-022",
+    "number": 87,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "Who pays for third-party LLM usage?",
+    "answer": "The customer, through their own provider subscription. Separate charges may apply in addition to assists."
+  },
+  {
+    "id": "04-023",
+    "number": 88,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Advanced",
+    "question": "How would you promote a custom skill to production?",
+    "answer": "Build and test in development, evaluate the output, then move the skill through your normal release process and verify access and consumption in production."
+  },
+  {
+    "id": "04-024",
+    "number": 89,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Intermediate",
+    "question": "Why apply least privilege to skills?",
+    "answer": "A skill can reach data and actions through its roles. Narrow roles limit the damage of mistakes or misuse."
+  },
+  {
+    "id": "04-025",
+    "number": 90,
+    "category": "Now Assist Skill Kit and Generative AI Controller",
+    "level": "Advanced",
+    "question": "How would you test a custom skill before release?",
+    "answer": "Run it on varied, realistic inputs, use the evaluation feature, check access and role behavior, and review outputs for accuracy, tone and safety."
+  },
+  {
+    "id": "05-001",
+    "number": 91,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Beginner",
+    "question": "What is the Otto panel?",
+    "answer": "The conversational panel where users interact with AI and see results from agents. Earlier documentation calls it the Now Assist panel."
+  },
+  {
+    "id": "05-002",
+    "number": 92,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Beginner",
+    "question": "What does the Otto panel require?",
+    "answer": "The Next Experience UI Framework must be enabled, according to the AI Agent release notes."
+  },
+  {
+    "id": "05-003",
+    "number": 93,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Beginner",
+    "question": "What is Virtual Agent?",
+    "answer": "ServiceNow's conversational interface for guided topics and self-service."
+  },
+  {
+    "id": "05-004",
+    "number": 94,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Intermediate",
+    "question": "What changed for Virtual Agent topic citations in Australia?",
+    "answer": "Citations from Now Assist Multi-Content Response Genius Results open the topic in the Now Assist panel so the conversation can continue there."
+  },
+  {
+    "id": "05-005",
+    "number": 95,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Beginner",
+    "question": "What is AI Search?",
+    "answer": "The ServiceNow search experience that uses AI to return relevant results across your content."
+  },
+  {
+    "id": "05-006",
+    "number": 96,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Intermediate",
+    "question": "What is Now Assist in AI Search?",
+    "answer": "A capability that provides a Q&A Genius Result card with answers based on content in your system."
+  },
+  {
+    "id": "05-007",
+    "number": 97,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Intermediate",
+    "question": "What is a Genius Result?",
+    "answer": "A rich result card that gives a direct answer or action instead of only a list of links."
+  },
+  {
+    "id": "05-008",
+    "number": 98,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Intermediate",
+    "question": "Why re-index AI Search sources?",
+    "answer": "Search results and generated answers depend on the index. Re-indexing picks up new or changed content."
+  },
+  {
+    "id": "05-009",
+    "number": 99,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Intermediate",
+    "question": "What is new in the September 2026 Otto panel for workspaces?",
+    "answer": "Users can switch between records in panel workspaces without losing the conversation context."
+  },
+  {
+    "id": "05-010",
+    "number": 100,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Beginner",
+    "question": "What does Otto combine?",
+    "answer": "Now Assist, Moveworks and the ServiceNow AI Experience platform in one interface."
+  },
+  {
+    "id": "05-011",
+    "number": 101,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Intermediate",
+    "question": "Where was Otto available at launch, according to coverage of Knowledge 2026?",
+    "answer": "Through EmployeeWorks and AI Control Tower, with plans to extend across the portfolio during the year."
+  },
+  {
+    "id": "05-012",
+    "number": 102,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Intermediate",
+    "question": "Why do citations matter in generated answers?",
+    "answer": "They show where an answer came from, which builds trust and lets users verify it."
+  },
+  {
+    "id": "05-013",
+    "number": 103,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Intermediate",
+    "question": "Can citations be turned off?",
+    "answer": "Yes, for specific agents or agentic workflows in AI Agent Studio where citations are not needed."
+  },
+  {
+    "id": "05-014",
+    "number": 104,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Advanced",
+    "question": "When should you build a Virtual Agent topic instead of an agent?",
+    "answer": "When the steps are known and fixed. Agents suit open-ended, multi-step tasks that need reasoning."
+  },
+  {
+    "id": "05-015",
+    "number": 105,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Intermediate",
+    "question": "How do you keep search answers accurate?",
+    "answer": "Maintain good knowledge, keep indexes current, and make sure content permissions are correct."
+  },
+  {
+    "id": "05-016",
+    "number": 106,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Intermediate",
+    "question": "How do permissions affect what a user sees in search answers?",
+    "answer": "Answers should be drawn only from content the user is allowed to access, so access rules must be correct."
+  },
+  {
+    "id": "05-017",
+    "number": 107,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Intermediate",
+    "question": "What are display locations for agents?",
+    "answer": "The places where an agent is available to users, such as the panel or Virtual Agent, set during Guided Setup."
+  },
+  {
+    "id": "05-018",
+    "number": 108,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Intermediate",
+    "question": "Where does output from an agentic workflow appear?",
+    "answer": "In the Otto (Now Assist) panel."
+  },
+  {
+    "id": "05-019",
+    "number": 109,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Intermediate",
+    "question": "What does a user do if an answer looks wrong?",
+    "answer": "Check the citation, give feedback, and escalate or search again. Administrators then review sources and configuration."
+  },
+  {
+    "id": "05-020",
+    "number": 110,
+    "category": "Otto Panel, Virtual Agent and AI Search",
+    "level": "Advanced",
+    "question": "How would you troubleshoot different answers between Virtual Agent and AI Search?",
+    "answer": "Check plugin versions, re-index the search sources, compare the content each channel can access, and review each channel's configuration."
+  },
+  {
+    "id": "06-001",
+    "number": 111,
+    "category": "AI Agents Fundamentals",
+    "level": "Beginner",
+    "question": "What is an AI agent in ServiceNow?",
+    "answer": "A software entity that uses an LLM to reason, plans steps, uses tools and data, and completes tasks toward a goal."
+  },
+  {
+    "id": "06-002",
+    "number": 112,
+    "category": "AI Agents Fundamentals",
+    "level": "Beginner",
+    "question": "How does agentic AI differ from generative AI?",
+    "answer": "Generative AI produces content. Agentic AI plans, decides and acts across steps by using tools."
+  },
+  {
+    "id": "06-003",
+    "number": 113,
+    "category": "AI Agents Fundamentals",
+    "level": "Beginner",
+    "question": "What is an agentic workflow?",
+    "answer": "A workflow in which a team of AI agents, coordinated by the orchestrator, works toward a defined objective."
+  },
+  {
+    "id": "06-004",
+    "number": 114,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "Which table stores AI agents?",
+    "answer": "sn_aia_agent."
+  },
+  {
+    "id": "06-005",
+    "number": 115,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "Which table stores agentic workflows?",
+    "answer": "sn_aia_usecase."
+  },
+  {
+    "id": "06-006",
+    "number": 116,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "Which reasoning pattern do agents follow?",
+    "answer": "ReAct: thought, action and observation loops that repeat until the problem is solved."
+  },
+  {
+    "id": "06-007",
+    "number": 117,
+    "category": "AI Agents Fundamentals",
+    "level": "Beginner",
+    "question": "What is a tool for an AI agent?",
+    "answer": "A capability the agent can call to read data, take an action or get information."
+  },
+  {
+    "id": "06-008",
+    "number": 118,
+    "category": "AI Agents Fundamentals",
+    "level": "Beginner",
+    "question": "What is the difference between interactive and autonomous agents?",
+    "answer": "Interactive agents reach out to users for information when needed. Autonomous agents work in the background without conversation."
+  },
+  {
+    "id": "06-009",
+    "number": 119,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "What is the AI agent background channel?",
+    "answer": "A channel that lets agents be invoked and run conversations in the background, without a user being present."
+  },
+  {
+    "id": "06-010",
+    "number": 120,
+    "category": "AI Agents Fundamentals",
+    "level": "Beginner",
+    "question": "What is an AI agent team?",
+    "answer": "Several agents with different roles that collaborate to complete a larger task."
+  },
+  {
+    "id": "06-011",
+    "number": 121,
+    "category": "AI Agents Fundamentals",
+    "level": "Beginner",
+    "question": "Why use teams of agents?",
+    "answer": "ServiceNow states that teams deliver better results than single agents on simple to complex workflows, with each agent specialized."
+  },
+  {
+    "id": "06-012",
+    "number": 122,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "What do an agent's instructions do?",
+    "answer": "They describe how the agent should behave and what steps it should follow."
+  },
+  {
+    "id": "06-013",
+    "number": 123,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "What does the agent's role define?",
+    "answer": "The agent's purpose and persona, which helps the orchestrator and the model decide how to use it."
+  },
+  {
+    "id": "06-014",
+    "number": 124,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "How does an agent get its identity and data access?",
+    "answer": "Through a run-as user or a data access configuration. In the SDK, data access is required when no run-as user is set."
+  },
+  {
+    "id": "06-015",
+    "number": 125,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "Does an agent have its own ACL?",
+    "answer": "Yes. An ACL derived from the agent's internal name is created, with role records that control who can use it."
+  },
+  {
+    "id": "06-016",
+    "number": 126,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "Why should tools have a single purpose?",
+    "answer": "Multipurpose tools confuse agents and make tool selection and debugging harder."
+  },
+  {
+    "id": "06-017",
+    "number": 127,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "Which model framework underlies AI Agent Studio, according to the release notes?",
+    "answer": "A GPT-4o-based framework, and localization follows the support of that model."
+  },
+  {
+    "id": "06-018",
+    "number": 128,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "Which browsers are supported for AI agents and Studio?",
+    "answer": "Google Chrome and Microsoft Edge, among others. Internet Explorer is not supported."
+  },
+  {
+    "id": "06-019",
+    "number": 129,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "Give examples of out-of-the-box agents.",
+    "answer": "Release notes mention agents such as Platform Approval Assistance and Platform Request status, plus password reset in example scenarios."
+  },
+  {
+    "id": "06-020",
+    "number": 130,
+    "category": "AI Agents Fundamentals",
+    "level": "Beginner",
+    "question": "What is AI Agent Advisor?",
+    "answer": "A capability that analyzes business data, surfaces high-impact automation opportunities and helps build and deploy agents. It became generally available in 2026."
+  },
+  {
+    "id": "06-021",
+    "number": 131,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "What is AI Agent Evaluator?",
+    "answer": "An Australia release component for assessing the quality of agents. Check current documentation for details."
+  },
+  {
+    "id": "06-022",
+    "number": 132,
+    "category": "AI Agents Fundamentals",
+    "level": "Beginner",
+    "question": "What is the Autonomous Workforce?",
+    "answer": "ServiceNow's set of AI specialists announced at Knowledge 2026 that run on shared platform infrastructure and governance."
+  },
+  {
+    "id": "06-023",
+    "number": 133,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "How does an agent differ from a flow?",
+    "answer": "A flow is deterministic and predefined. An agent reasons dynamically and chooses its next step."
+  },
+  {
+    "id": "06-024",
+    "number": 134,
+    "category": "AI Agents Fundamentals",
+    "level": "Advanced",
+    "question": "When should you not use an agent?",
+    "answer": "For fixed, high-volume or compliance-critical steps where a deterministic flow is more predictable and cheaper."
+  },
+  {
+    "id": "06-025",
+    "number": 135,
+    "category": "AI Agents Fundamentals",
+    "level": "Advanced",
+    "question": "What are the main risks of agentic AI?",
+    "answer": "Wrong or unauthorized actions, excessive permissions, prompt injection, unpredictable behavior and cost. Mitigate with least privilege, approvals, testing and monitoring."
+  },
+  {
+    "id": "06-026",
+    "number": 136,
+    "category": "AI Agents Fundamentals",
+    "level": "Advanced",
+    "question": "How do you keep a human in the loop?",
+    "answer": "Add approval steps for sensitive actions, use features such as Intelligent Approvals, and let interactive agents ask users for confirmation."
+  },
+  {
+    "id": "06-027",
+    "number": 137,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "What are Intelligent Approvals?",
+    "answer": "An Australia release capability for AI-assisted approvals. Check the release notes for current scope."
+  },
+  {
+    "id": "06-028",
+    "number": 138,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "How can you reuse an existing agent?",
+    "answer": "Duplicate it in AI Agent Studio. Cloned agents can reference their source agent."
+  },
+  {
+    "id": "06-029",
+    "number": 139,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "Does AI Agent Studio support versions?",
+    "answer": "Yes. Agents can have multiple versions with different configurations."
+  },
+  {
+    "id": "06-030",
+    "number": 140,
+    "category": "AI Agents Fundamentals",
+    "level": "Intermediate",
+    "question": "What kind of task suits a first AI agent project?",
+    "answer": "A narrow, low-risk task with clear tools and success criteria, such as checking request status or suggesting triage."
+  },
+  {
+    "id": "07-001",
+    "number": 141,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Beginner",
+    "question": "What is AI Agent Studio?",
+    "answer": "A unified environment to create, manage, test and configure AI agents and agentic workflows."
+  },
+  {
+    "id": "07-002",
+    "number": 142,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Beginner",
+    "question": "What does Guided Setup configure?",
+    "answer": "Triggers, data sources, tools and display locations for agents and workflows."
+  },
+  {
+    "id": "07-003",
+    "number": 143,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Beginner",
+    "question": "Where do results appear after an agentic workflow runs?",
+    "answer": "In the Otto (Now Assist) panel."
+  },
+  {
+    "id": "07-004",
+    "number": 144,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "Which trigger types exist in the SDK?",
+    "answer": "record_create, record_create_or_update, record_update, email, scheduled, daily, weekly and monthly. Users can also start agents manually."
+  },
+  {
+    "id": "07-005",
+    "number": 145,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "Give an example of a record event trigger.",
+    "answer": "An agent that starts when a new incident is created or an existing one is updated."
+  },
+  {
+    "id": "07-006",
+    "number": 146,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "What is a manual trigger?",
+    "answer": "A user starts the agent on demand, for example from the panel."
+  },
+  {
+    "id": "07-007",
+    "number": 147,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "What is an email trigger?",
+    "answer": "It starts an agent when an email event occurs, such as a message that arrives."
+  },
+  {
+    "id": "07-008",
+    "number": 148,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "When would you use a scheduled trigger?",
+    "answer": "For periodic work, such as a daily review of stale tickets."
+  },
+  {
+    "id": "07-009",
+    "number": 149,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "Which kinds of tools can agents use?",
+    "answer": "Knowledge retrieval, web search, REST and other APIs, Integration Hub actions, record operations (CRUD), scripts and out-of-the-box tools."
+  },
+  {
+    "id": "07-010",
+    "number": 150,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "What is a CRUD tool?",
+    "answer": "A tool that creates, reads, updates or deletes records on a table."
+  },
+  {
+    "id": "07-011",
+    "number": 151,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "What is a script tool?",
+    "answer": "A tool that runs custom server-side logic for cases other tools cannot handle."
+  },
+  {
+    "id": "07-012",
+    "number": 152,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "What does the web search tool give an agent?",
+    "answer": "Access to up-to-date public information."
+  },
+  {
+    "id": "07-013",
+    "number": 153,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "What does the knowledge tool give an agent?",
+    "answer": "The ability to search internal knowledge articles and documentation."
+  },
+  {
+    "id": "07-014",
+    "number": 154,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "What does Integration Hub add to agents?",
+    "answer": "Connections to external systems through actions and spokes."
+  },
+  {
+    "id": "07-015",
+    "number": 155,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Advanced",
+    "question": "Why do tool descriptions matter?",
+    "answer": "The model chooses tools based on their names and descriptions, so clear, accurate descriptions improve selection."
+  },
+  {
+    "id": "07-016",
+    "number": 156,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "How do you test an agent?",
+    "answer": "Test and debug inside AI Agent Studio, starting with a simple agent with no tools before adding complexity."
+  },
+  {
+    "id": "07-017",
+    "number": 157,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "Can AI help build agents?",
+    "answer": "Yes. Studio supports a natural language experience and AI help to generate names, roles and instructions that you then review."
+  },
+  {
+    "id": "07-018",
+    "number": 158,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Beginner",
+    "question": "Which Fluent SDK objects cover AI agents?",
+    "answer": "AiAgent for single agents and AiAgenticWorkflow for orchestrated multi-agent workflows."
+  },
+  {
+    "id": "07-019",
+    "number": 159,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "What does an AiAgent definition include?",
+    "answer": "A role, instructions, tools, optional triggers and data access settings, with support for versions."
+  },
+  {
+    "id": "07-020",
+    "number": 160,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "What is the Base Plan?",
+    "answer": "The initial instructions that set the orchestrator's plan at the workflow level."
+  },
+  {
+    "id": "07-021",
+    "number": 161,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "Why start with a small agent?",
+    "answer": "Simple steps are easier to test and debug and reduce the chance of unpredictable behavior."
+  },
+  {
+    "id": "07-022",
+    "number": 162,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "Why reuse agents instead of creating duplicates?",
+    "answer": "Reuse keeps behavior consistent and reduces maintenance and governance effort."
+  },
+  {
+    "id": "07-023",
+    "number": 163,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Advanced",
+    "question": "Design a trigger for automatic incident triage.",
+    "answer": "Use a record_create trigger on incident with conditions, so a triage agent categorizes and routes new incidents."
+  },
+  {
+    "id": "07-024",
+    "number": 164,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Advanced",
+    "question": "How do you avoid trigger loops?",
+    "answer": "If the agent updates the record that triggers it, add conditions or filters so the update does not start the agent again."
+  },
+  {
+    "id": "07-025",
+    "number": 165,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "What are display locations?",
+    "answer": "Settings that decide where users can reach the agent, such as the panel or Virtual Agent."
+  },
+  {
+    "id": "07-026",
+    "number": 166,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "How should roles be assigned to an agent?",
+    "answer": "Grant only the roles needed for its tools and data, using the agent's ACL and data access settings."
+  },
+  {
+    "id": "07-027",
+    "number": 167,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "What are data sources in Guided Setup?",
+    "answer": "The data the agent can use, configured so it works with the right information."
+  },
+  {
+    "id": "07-028",
+    "number": 168,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Advanced",
+    "question": "How many tools should an agent have?",
+    "answer": "As few as needed, each with one clear purpose, to improve selection accuracy and reduce risk."
+  },
+  {
+    "id": "07-029",
+    "number": 169,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "Why define clear exit conditions in instructions?",
+    "answer": "They tell the agent when the task is done, which prevents unnecessary steps and cost."
+  },
+  {
+    "id": "07-030",
+    "number": 170,
+    "category": "AI Agent Studio, Tools and Triggers",
+    "level": "Intermediate",
+    "question": "What happens at runtime?",
+    "answer": "Triggers start agentic workflows, agents execute with orchestrator support, and results are shown in the panel."
+  },
+  {
+    "id": "08-001",
+    "number": 171,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Beginner",
+    "question": "What does the AI Agent Orchestrator do?",
+    "answer": "It coordinates collaboration among agents, routes requests between them, and manages iterative problem solving."
+  },
+  {
+    "id": "08-002",
+    "number": 172,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "What does the dynamic orchestrator do?",
+    "answer": "It maps the right agents to the user's agentic workflow to improve performance and accuracy."
+  },
+  {
+    "id": "08-003",
+    "number": 173,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "What does the orchestrator handle between agents?",
+    "answer": "Sequencing of tasks, handoffs, retries on failure and keeping agents on track."
+  },
+  {
+    "id": "08-004",
+    "number": 174,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "What does the orchestrator do when it lacks information?",
+    "answer": "It can seek additional context, including by asking the user, before continuing."
+  },
+  {
+    "id": "08-005",
+    "number": 175,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "What is a use case in an agentic workflow?",
+    "answer": "The record, in sn_aia_usecase, that defines the workflow's objective and its team of agents."
+  },
+  {
+    "id": "08-006",
+    "number": 176,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "Describe a simple multi-agent workflow.",
+    "answer": "A password reset flow where one agent verifies the user, another finds the account, another resets the password, and a fourth notifies the user."
+  },
+  {
+    "id": "08-007",
+    "number": 177,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Advanced",
+    "question": "What are the tradeoffs of one agent versus several?",
+    "answer": "One agent is simpler and cheaper. Several specialized agents are easier to tune and reuse but add coordination overhead."
+  },
+  {
+    "id": "08-008",
+    "number": 178,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Advanced",
+    "question": "How do you split a workflow into agents?",
+    "answer": "Give each agent a single responsibility, with its own tools and instructions, and keep handoffs explicit."
+  },
+  {
+    "id": "08-009",
+    "number": 179,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "What is a handoff?",
+    "answer": "The transfer of work and context from one agent to another through the orchestrator."
+  },
+  {
+    "id": "08-010",
+    "number": 180,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "How can you monitor workflows across the enterprise?",
+    "answer": "Use the AI Agent Orchestrator and AI Control Tower to track progress and agent behavior."
+  },
+  {
+    "id": "08-011",
+    "number": 181,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "What happens when an agent cannot continue?",
+    "answer": "It can fall back, and an interactive agent can ask the user for information and re-trigger the flow."
+  },
+  {
+    "id": "08-012",
+    "number": 182,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Advanced",
+    "question": "How do you avoid circular handoffs?",
+    "answer": "Define clear responsibilities and stop conditions, and test workflows with cases designed to loop."
+  },
+  {
+    "id": "08-013",
+    "number": 183,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Advanced",
+    "question": "How do you evaluate a multi-agent workflow?",
+    "answer": "Build test cases with expected outcomes, run them repeatedly, use evaluation tooling, and review traces for poor decisions."
+  },
+  {
+    "id": "08-014",
+    "number": 184,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Advanced",
+    "question": "Why should tools be idempotent?",
+    "answer": "Retries or repeated steps should not create duplicate records or repeat harmful actions."
+  },
+  {
+    "id": "08-015",
+    "number": 185,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Advanced",
+    "question": "When do parallel or sequential steps make sense?",
+    "answer": "Sequential when each step depends on the last. Parallel when tasks are independent and speed matters."
+  },
+  {
+    "id": "08-016",
+    "number": 186,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "What are agentic workflow templates?",
+    "answer": "Prebuilt workflows in AI Agent Studio that you can activate and adjust for triggers and display settings."
+  },
+  {
+    "id": "08-017",
+    "number": 187,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Advanced",
+    "question": "What drives latency and cost in multi-agent flows?",
+    "answer": "The number of LLM calls, tool calls and retries. Fewer, clearer steps reduce both."
+  },
+  {
+    "id": "08-018",
+    "number": 188,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Advanced",
+    "question": "Why is runtime observability needed for agents?",
+    "answer": "It shows how agents reason and decide so teams can correct course. ServiceNow added this through the Traceloop acquisition."
+  },
+  {
+    "id": "08-019",
+    "number": 189,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "What does mining agentic AI logs mean?",
+    "answer": "Analyzing agent activity logs, including with process mining capabilities, to find patterns and improvement opportunities."
+  },
+  {
+    "id": "08-020",
+    "number": 190,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "What is AI Agent Fabric?",
+    "answer": "A capability that connects agents across systems, and supports MCP to link ServiceNow agents with external tools and resources."
+  },
+  {
+    "id": "08-021",
+    "number": 191,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "What is Action Fabric?",
+    "answer": "A mechanism that opens ServiceNow's workflow engine to external AI agents, with actions governed through AI Control Tower."
+  },
+  {
+    "id": "08-022",
+    "number": 192,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "What does governance of Action Fabric include?",
+    "answer": "Identity verification, permission scoping and a full audit trail for actions that external agents perform."
+  },
+  {
+    "id": "08-023",
+    "number": 193,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Intermediate",
+    "question": "Is the MCP server available to customers?",
+    "answer": "Reports from May 2026 say an MCP server is included in every Now Assist and AI Native SKU. Verify against your own entitlements."
+  },
+  {
+    "id": "08-024",
+    "number": 194,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Advanced",
+    "question": "How would you govern external agents that call ServiceNow?",
+    "answer": "Require verified identities, scope permissions narrowly, route actions through Control Tower, and keep audit trails and approvals for sensitive actions."
+  },
+  {
+    "id": "08-025",
+    "number": 195,
+    "category": "Orchestration, Multi-Agent and Agentic Workflows",
+    "level": "Advanced",
+    "question": "How do you test an orchestrated flow end to end?",
+    "answer": "Create realistic scenarios, run them in a non-production instance, check outcomes and traces at every handoff, and include failure cases."
+  },
+  {
+    "id": "09-001",
+    "number": 196,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Beginner",
+    "question": "Which five areas does AI Control Tower cover in the Australia release?",
+    "answer": "Discovery, observation, governance, security and measurement."
+  },
+  {
+    "id": "09-002",
+    "number": 197,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Beginner",
+    "question": "When was AI Control Tower introduced?",
+    "answer": "It was introduced in 2025, around Knowledge 2025, and expanded in the Australia release."
+  },
+  {
+    "id": "09-003",
+    "number": 198,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "What do the new AI Control Tower connectors do?",
+    "answer": "They let it discover and govern AI beyond ServiceNow. About 30 new enterprise connectors span AWS, Google Cloud, Microsoft Azure and apps such as SAP."
+  },
+  {
+    "id": "09-004",
+    "number": 199,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "What financial visibility does AI Control Tower add?",
+    "answer": "Cost tracking and ROI dashboards that show model spend."
+  },
+  {
+    "id": "09-005",
+    "number": 200,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "What did the Traceloop acquisition add?",
+    "answer": "Deep observability into AI agent behavior at runtime."
+  },
+  {
+    "id": "09-006",
+    "number": 201,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "What did the Veza acquisition add?",
+    "answer": "Identity and access security capabilities for governing what agents and people can access."
+  },
+  {
+    "id": "09-007",
+    "number": 202,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "What is publishing to Microsoft Agent 365?",
+    "answer": "An Australia Patch 2 capability that sends ServiceNow agents to the Microsoft external registry."
+  },
+  {
+    "id": "09-008",
+    "number": 203,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "What can you customize about the AI security score?",
+    "answer": "Its calculation, so it reflects your own security requirements."
+  },
+  {
+    "id": "09-009",
+    "number": 204,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "What do the new security metrics monitor?",
+    "answer": "LLM and agent output for security policy violations, personal data and potential threats."
+  },
+  {
+    "id": "09-010",
+    "number": 205,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "What is Now Assist Guardian?",
+    "answer": "A guardrail layer that screens requests and responses for problems such as harmful content or attempts to misuse the model."
+  },
+  {
+    "id": "09-011",
+    "number": 206,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Beginner",
+    "question": "What is prompt injection?",
+    "answer": "An attack that hides instructions in input or retrieved content to make the model ignore its rules or misuse tools."
+  },
+  {
+    "id": "09-012",
+    "number": 207,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Advanced",
+    "question": "How do you reduce prompt injection risk in agents?",
+    "answer": "Give least-privilege access, limit tools, treat retrieved text as data, add approvals for sensitive actions, use guardrails and monitor behavior."
+  },
+  {
+    "id": "09-013",
+    "number": 208,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "What does least privilege mean for an agent?",
+    "answer": "The agent has only the roles, tools and data it needs for its task and nothing more."
+  },
+  {
+    "id": "09-014",
+    "number": 209,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "How is an agent's ACL named?",
+    "answer": "From its internal name in the form domain.scope.agentName, with matching role records."
+  },
+  {
+    "id": "09-015",
+    "number": 210,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "What do role restrictions do for skills?",
+    "answer": "They define the roles under which a skill runs, which limits the data it can touch."
+  },
+  {
+    "id": "09-016",
+    "number": 211,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "Where can you read how ServiceNow handles your data with Now Assist?",
+    "answer": "In the Data Handling and Security documentation for Now Assist."
+  },
+  {
+    "id": "09-017",
+    "number": 212,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "What is ServiceNow's responsible AI commitment?",
+    "answer": "It publishes a responsible AI white paper and says its LLMs are developed with responsible AI guidelines."
+  },
+  {
+    "id": "09-018",
+    "number": 213,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "Where can you find information on how Now LLM was built?",
+    "answer": "In the Now LLM model cards in the documentation."
+  },
+  {
+    "id": "09-019",
+    "number": 214,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "Why is auditability important for AI actions?",
+    "answer": "It lets you trace what an agent did, why and with whose permissions, for troubleshooting and compliance."
+  },
+  {
+    "id": "09-020",
+    "number": 215,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Advanced",
+    "question": "What does risk classification do for AI assets?",
+    "answer": "It categorizes AI assets by risk so controls, reviews and approvals match the level of risk."
+  },
+  {
+    "id": "09-021",
+    "number": 216,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Advanced",
+    "question": "How do you relate AI governance to regulation?",
+    "answer": "Use the governance records to inventory AI systems and map them to risk categories, and involve legal and compliance teams for obligations."
+  },
+  {
+    "id": "09-022",
+    "number": 217,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "What identity checks apply to Action Fabric?",
+    "answer": "Every action carries identity verification, permission scoping and an audit trail through AI Control Tower."
+  },
+  {
+    "id": "09-023",
+    "number": 218,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Advanced",
+    "question": "How do you handle personal data in prompts?",
+    "answer": "Minimize what is sent, mask or exclude it where possible, apply privacy controls and review provider data terms."
+  },
+  {
+    "id": "09-024",
+    "number": 219,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Advanced",
+    "question": "How do you red team an agent?",
+    "answer": "Test with adversarial inputs, injection attempts and boundary cases, record failures, then fix instructions, tools and permissions."
+  },
+  {
+    "id": "09-025",
+    "number": 220,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Advanced",
+    "question": "Which agent actions need human approval?",
+    "answer": "Destructive, financial, security-sensitive or hard-to-reverse actions, such as deleting records or changing access."
+  },
+  {
+    "id": "09-026",
+    "number": 221,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "Why consider log retention for AI interactions?",
+    "answer": "Logs help investigation but may contain sensitive data, so retention and access need policy."
+  },
+  {
+    "id": "09-027",
+    "number": 222,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Intermediate",
+    "question": "Why test for bias?",
+    "answer": "Models can produce uneven results for different groups, so testing supports fair and responsible outcomes."
+  },
+  {
+    "id": "09-028",
+    "number": 223,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Advanced",
+    "question": "Why separate builders from approvers?",
+    "answer": "Segregation of duties reduces the chance that one person can deploy a risky agent without review."
+  },
+  {
+    "id": "09-029",
+    "number": 224,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Advanced",
+    "question": "What does AI lifecycle management involve?",
+    "answer": "Tracking assets from idea through development, testing, production and retirement with approvals at each stage."
+  },
+  {
+    "id": "09-030",
+    "number": 225,
+    "category": "Governance, Security and Responsible AI",
+    "level": "Advanced",
+    "question": "What would you do if an agent behaves badly in production?",
+    "answer": "Disable or restrict it, review traces and logs, find the root cause, fix and retest, and document the lessons."
+  },
+  {
+    "id": "10-001",
+    "number": 226,
+    "category": "Platform Data and Integration",
+    "level": "Beginner",
+    "question": "What is Workflow Data Fabric?",
+    "answer": "A layer that connects workflows and AI to enterprise data, including data outside ServiceNow, so work can use the data it needs."
+  },
+  {
+    "id": "10-002",
+    "number": 227,
+    "category": "Platform Data and Integration",
+    "level": "Beginner",
+    "question": "What is the Context Engine?",
+    "answer": "A platform capability that gives AI shared operational context, working alongside the CMDB."
+  },
+  {
+    "id": "10-003",
+    "number": 228,
+    "category": "Platform Data and Integration",
+    "level": "Beginner",
+    "question": "Why does the CMDB matter for AI agents?",
+    "answer": "It provides the relationships between services and assets, which helps agents reason about impact and dependencies."
+  },
+  {
+    "id": "10-004",
+    "number": 229,
+    "category": "Platform Data and Integration",
+    "level": "Intermediate",
+    "question": "What is retrieval-augmented generation (RAG)?",
+    "answer": "A pattern that retrieves relevant content and gives it to the model so answers rest on your data."
+  },
+  {
+    "id": "10-005",
+    "number": 230,
+    "category": "Platform Data and Integration",
+    "level": "Intermediate",
+    "question": "Why do documents get split into chunks for retrieval?",
+    "answer": "Smaller pieces can be matched and fetched precisely, which improves relevance and reduces unneeded context."
+  },
+  {
+    "id": "10-006",
+    "number": 231,
+    "category": "Platform Data and Integration",
+    "level": "Intermediate",
+    "question": "What does Integration Hub do for AI use cases?",
+    "answer": "It connects the platform to external systems through spokes and actions that tools and skills can call."
+  },
+  {
+    "id": "10-007",
+    "number": 232,
+    "category": "Platform Data and Integration",
+    "level": "Intermediate",
+    "question": "When would an agent use a REST tool?",
+    "answer": "To call an external or internal API to read data or trigger an action that no built-in tool covers."
+  },
+  {
+    "id": "10-008",
+    "number": 233,
+    "category": "Platform Data and Integration",
+    "level": "Intermediate",
+    "question": "What is MCP?",
+    "answer": "Model Context Protocol, an open protocol for connecting AI agents to tools and data sources."
+  },
+  {
+    "id": "10-009",
+    "number": 234,
+    "category": "Platform Data and Integration",
+    "level": "Intermediate",
+    "question": "How does ServiceNow use MCP?",
+    "answer": "AI Agent Fabric uses MCP to connect agents with external tools and resources, and an MCP server exposes ServiceNow capabilities to outside agents."
+  },
+  {
+    "id": "10-010",
+    "number": 235,
+    "category": "Platform Data and Integration",
+    "level": "Intermediate",
+    "question": "What are Service Graph Connectors for AI Control Tower?",
+    "answer": "Connectors that bring information about AI assets from other systems into AI Control Tower."
+  },
+  {
+    "id": "10-011",
+    "number": 236,
+    "category": "Platform Data and Integration",
+    "level": "Intermediate",
+    "question": "What is Data Catalog in the Australia release?",
+    "answer": "A capability for organizing and describing data assets so teams and AI can find and trust them."
+  },
+  {
+    "id": "10-012",
+    "number": 237,
+    "category": "Platform Data and Integration",
+    "level": "Advanced",
+    "question": "How does data quality limit AI results?",
+    "answer": "Incomplete or stale data leads to wrong summaries, answers and actions, so data stewardship comes first."
+  },
+  {
+    "id": "10-013",
+    "number": 238,
+    "category": "Platform Data and Integration",
+    "level": "Advanced",
+    "question": "What is the idea of zero-copy data access?",
+    "answer": "Working with data where it lives instead of copying it, which reduces duplication and keeps it fresher."
+  },
+  {
+    "id": "10-014",
+    "number": 239,
+    "category": "Platform Data and Integration",
+    "level": "Intermediate",
+    "question": "What is Knowledge Center?",
+    "answer": "An Australia release capability for managing knowledge that powers AI answers."
+  },
+  {
+    "id": "10-015",
+    "number": 240,
+    "category": "Platform Data and Integration",
+    "level": "Intermediate",
+    "question": "How do permissions on knowledge affect AI answers?",
+    "answer": "Access criteria still apply, so answers should only use content the requesting user is allowed to see."
+  },
+  {
+    "id": "11-001",
+    "number": 241,
+    "category": "Administration, Testing and Troubleshooting",
+    "level": "Intermediate",
+    "question": "What should you do before upgrading to the Australia release?",
+    "answer": "Read the release notes and complete the pre-upgrade tasks listed for each product, such as AI Control Tower."
+  },
+  {
+    "id": "11-002",
+    "number": 242,
+    "category": "Administration, Testing and Troubleshooting",
+    "level": "Intermediate",
+    "question": "Where do you check known issues for Now Assist updates?",
+    "answer": "In the issues and mitigation documentation for Now Assist generative AI applications and plugin updates."
+  },
+  {
+    "id": "11-003",
+    "number": 243,
+    "category": "Administration, Testing and Troubleshooting",
+    "level": "Intermediate",
+    "question": "What can happen if you skip required post-upgrade tasks?",
+    "answer": "Some functions might not work as expected, as the release notes warn."
+  },
+  {
+    "id": "11-004",
+    "number": 244,
+    "category": "Administration, Testing and Troubleshooting",
+    "level": "Advanced",
+    "question": "What belongs in a test plan for an agent?",
+    "answer": "Happy paths, edge cases, failure modes, permission checks, security tests, cost estimates and acceptance criteria."
+  },
+  {
+    "id": "11-005",
+    "number": 245,
+    "category": "Administration, Testing and Troubleshooting",
+    "level": "Advanced",
+    "question": "How would you build an evaluation dataset?",
+    "answer": "Collect realistic anonymized cases with expected outcomes, include hard and adversarial examples, and rerun it after every change."
+  },
+  {
+    "id": "11-006",
+    "number": 246,
+    "category": "Administration, Testing and Troubleshooting",
+    "level": "Intermediate",
+    "question": "How do you monitor AI usage?",
+    "answer": "Use AI Admin Hub and AI Control Tower for usage, quality, cost and security measures."
+  },
+  {
+    "id": "11-007",
+    "number": 247,
+    "category": "Administration, Testing and Troubleshooting",
+    "level": "Advanced",
+    "question": "What is a safe rollback plan for an AI feature?",
+    "answer": "Keep versions, disable triggers or skills quickly, restore the earlier version and communicate the change to users."
+  },
+  {
+    "id": "11-008",
+    "number": 248,
+    "category": "Administration, Testing and Troubleshooting",
+    "level": "Intermediate",
+    "question": "What do you do if plugins are missing in Plugin Manager?",
+    "answer": "Click Sync in the top right, or use the Classic App Manager view."
+  },
+  {
+    "id": "11-009",
+    "number": 249,
+    "category": "Administration, Testing and Troubleshooting",
+    "level": "Intermediate",
+    "question": "How can you get Now LLM model files for download?",
+    "answer": "Log a support case with the Generative AI Operationalization team, as described in the Now Assist FAQ."
+  },
+  {
+    "id": "11-010",
+    "number": 250,
+    "category": "Administration, Testing and Troubleshooting",
+    "level": "Advanced",
+    "question": "How would you govern AI cost across teams?",
+    "answer": "Track assist and model consumption per skill, set budgets and alerts, review value regularly and retire low-value uses."
+  }
+]
